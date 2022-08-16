@@ -1,9 +1,12 @@
 import logo from './logo.png';
 import './App.css';
 import Dictionary from "./Dictionary";
+import Main from "./video";
 
 function App() {
   return (
+    <div>
+      <Main />
     <div className="App">
       <div className="container">
       <header className="App-header">
@@ -16,6 +19,7 @@ function App() {
         Coded by Helene Lipp
       </footer>
       </div>
+    </div>
     </div>
   );
 }
