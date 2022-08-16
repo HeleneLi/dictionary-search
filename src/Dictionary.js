@@ -49,13 +49,13 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <h1>
-           Type a word that gives you inner peace 🌄
+          🌊 Type a word that gives you inner peace 🌄
           </h1>
           <form onSubmit={handleSubmit}>
             <input type="search" autoFocus={true} onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
           </form>
           <div className="hint">
-            suggested words: sunset, wine, yoga, languages
+            suggested words: sunset, wine, yoga, beach
           </div>
         </section>
         <Results results={results} />
