@@ -16,7 +16,9 @@ function App() {
         <Dictionary defaultKeyword="sea"/>
       </main>
       <footer className="text-center">
-        Coded by Helene Lipp
+        Coded by
+            <a href="https://linkedin.com/in/Helene-Lipp" target="_blank" rel="noreferrer">Helene Lipp
+        </a>
       </footer>
       </div>
     </div>
